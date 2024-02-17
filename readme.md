@@ -48,6 +48,8 @@ Les groupes sont:
 
 Attention pour les lettres majuscules et minuscules!
 
+## Serveur API
+
 
 ## Questions et réponses
 ### 4e Etape: Photos et vidéos
