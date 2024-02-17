@@ -1,0 +1,5 @@
+<map id="Film" name="Film">
+<area shape="rect" id="node1" title="Represents a film, which is a type of video with chapters." alt="" coords="28,155,79,181"/>
+<area shape="rect" id="node2" href="$classVideo.html" title="Represents a video file." alt="" coords="24,80,83,107"/>
+<area shape="rect" id="node3" href="$classMultimedia.html" title="The Multimedia class represents a generic multimedia object." alt="" coords="5,5,101,32"/>
+</map>

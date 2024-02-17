@@ -1,0 +1,5 @@
+To run checking memory leaks:
+valgrind --leak-check=full ./myprog
+
+To run the code:
+make run

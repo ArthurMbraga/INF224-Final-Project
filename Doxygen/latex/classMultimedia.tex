@@ -1,0 +1,63 @@
+\hypertarget{classMultimedia}{}\doxysection{Multimedia Class Reference}
+\label{classMultimedia}\index{Multimedia@{Multimedia}}
+
+
+The \mbox{\hyperlink{classMultimedia}{Multimedia}} class represents a generic multimedia object.  
+
+
+
+
+{\ttfamily \#include $<$Multimedia.\+h$>$}
+
+
+
+Inheritance diagram for Multimedia\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=186pt]{classMultimedia__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMultimedia_a6105129da1041cc546f67fbd79f244f4}\label{classMultimedia_a6105129da1041cc546f67fbd79f244f4}} 
+std\+::string {\bfseries get\+Name} () const
+\item 
+\mbox{\Hypertarget{classMultimedia_ae7587faa573715bcbaa786a0d83f4871}\label{classMultimedia_ae7587faa573715bcbaa786a0d83f4871}} 
+void {\bfseries set\+Name} (std\+::string name)
+\item 
+\mbox{\Hypertarget{classMultimedia_a49468e4f13efa636f677405bb09e3afc}\label{classMultimedia_a49468e4f13efa636f677405bb09e3afc}} 
+std\+::string {\bfseries get\+Path} () const
+\item 
+\mbox{\Hypertarget{classMultimedia_ac2974511809a0946a8d78b3cf11c60c7}\label{classMultimedia_ac2974511809a0946a8d78b3cf11c60c7}} 
+void {\bfseries set\+Path} (std\+::string path)
+\item 
+\mbox{\Hypertarget{classMultimedia_a037a678c1d308be3fa1737a23dc73849}\label{classMultimedia_a037a678c1d308be3fa1737a23dc73849}} 
+virtual void {\bfseries display} (std\+::ostream \&stream) const
+\item 
+\mbox{\Hypertarget{classMultimedia_a1fa4ae371afc516559955b38e0392acb}\label{classMultimedia_a1fa4ae371afc516559955b38e0392acb}} 
+virtual void {\bfseries play} () const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMultimedia_ae286736b31f20ab436a100471821bef5}\label{classMultimedia_ae286736b31f20ab436a100471821bef5}} 
+{\bfseries Multimedia} (std\+::string name, std\+::string path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMultimedia_a328c093d609680cca505905c6d49901a}\label{classMultimedia_a328c093d609680cca505905c6d49901a}} 
+class {\bfseries Factory}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classMultimedia}{Multimedia}} class represents a generic multimedia object. 
+
+This class provides a base implementation for multimedia objects, such as images, videos, and audio files. It contains common attributes and methods that can be inherited by specific multimedia types. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multimedia.\+h\end{DoxyCompactItemize}

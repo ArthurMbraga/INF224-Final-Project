@@ -1,0 +1,7 @@
+main.o: main.cpp headers/Factory.h headers/Film.h headers/Video.h \
+ headers/Factory.h headers/Multimedia.h headers/Group.h headers/Photo.h \
+ headers/Film.h headers/Group.h headers/Photo.h headers/Video.h \
+ tcpserver/tcpserver.h tcpserver/ccsocket.h
+ccsocket.o: tcpserver/ccsocket.cpp tcpserver/ccsocket.h
+tcpserver.o: tcpserver/tcpserver.cpp tcpserver/tcpserver.h \
+ tcpserver/ccsocket.h
