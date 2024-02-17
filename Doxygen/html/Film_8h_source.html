@@ -114,9 +114,9 @@ $(function() {
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">int</span> *chapters = <a class="code" href="classFilm.html#aa80d840b6b7d6e759a04014f92e40247">getChapters</a>();</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    stream &lt;&lt; <span class="stringliteral">&quot;Chapters durations: &quot;</span>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classVideo.html#a57f903f1d582ac6ef88922c7a6cb8f7f">getDuration</a>(); i++) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classFilm.html#a45fabb55732042524b1ba77040176573">getNumberOfChapters</a>(); i++) {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      stream &lt;&lt; chapters[i];</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordflow">if</span> (i != <a class="code" href="classVideo.html#a57f903f1d582ac6ef88922c7a6cb8f7f">getDuration</a>() - 1)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordflow">if</span> (i != <a class="code" href="classFilm.html#a45fabb55732042524b1ba77040176573">getNumberOfChapters</a>() - 1)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        stream &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    stream &lt;&lt; <span class="stringliteral">&quot;; &quot;</span>;</div>
@@ -137,7 +137,6 @@ $(function() {
 <div class="ttc" id="aclassFilm_html_a93e688017a998f2401d80015470f1fa2"><div class="ttname"><a href="classFilm.html#a93e688017a998f2401d80015470f1fa2">Film::display</a></div><div class="ttdeci">virtual void display(std::ostream &amp;stream) const override</div><div class="ttdoc">Displays the film information to the given output stream.</div><div class="ttdef"><b>Definition:</b> Film.h:73</div></div>
 <div class="ttc" id="aclassFilm_html_aa80d840b6b7d6e759a04014f92e40247"><div class="ttname"><a href="classFilm.html#aa80d840b6b7d6e759a04014f92e40247">Film::getChapters</a></div><div class="ttdeci">int * getChapters() const</div><div class="ttdoc">Gets a copy of the chapters array.</div><div class="ttdef"><b>Definition:</b> Film.h:38</div></div>
 <div class="ttc" id="aclassVideo_html"><div class="ttname"><a href="classVideo.html">Video</a></div><div class="ttdoc">Represents a video file.</div><div class="ttdef"><b>Definition:</b> Video.h:15</div></div>
-<div class="ttc" id="aclassVideo_html_a57f903f1d582ac6ef88922c7a6cb8f7f"><div class="ttname"><a href="classVideo.html#a57f903f1d582ac6ef88922c7a6cb8f7f">Video::getDuration</a></div><div class="ttdeci">int getDuration() const</div><div class="ttdoc">Get the duration of the video.</div><div class="ttdef"><b>Definition:</b> Video.h:30</div></div>
 <div class="ttc" id="aclassVideo_html_adbb2d9b74f971355809faa5669683937"><div class="ttname"><a href="classVideo.html#adbb2d9b74f971355809faa5669683937">Video::display</a></div><div class="ttdeci">virtual void display(std::ostream &amp;stream) const override</div><div class="ttdoc">Display information about the video.</div><div class="ttdef"><b>Definition:</b> Video.h:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -2,27 +2,17 @@
 ## MARTINS BRAGA Arthur
 
 ## Comment compiler et exécuter le projet
-### Compilation
-pour compiler le projet cpp, il suffit de se placer dans le dossier `cpp` et d'exécuter la commande `make`:
+### Compilation et exécution
+Il faut exécuter le serveur avant de lancer le client. Pour cela, il suffit de se placer dans le dossier `cpp` et d'exécuter la commande `make run`:
 ```bash
 cd cpp
-make
+make run
 ```
-pour compiler le projet java, il suffit de se placer dans le dossier `swing` et d'exécuter la commande `make`:
+
+Ensuite, pour lancer le client, il suffit de se placer dans le dossier `swing` et d'exécuter la commande `make run`:
 ```bash
 cd swing
-make
-```
-### Exécution
-Il faut exécuter le serveur avant de lancer le client. Pour cela, il suffit de se placer dans le dossier `cpp` et d'exécuter la commande `./myprog`:
-```bash
-cd cpp
-./myprog
-```
-Ensuite, pour lancer le client, il suffit de se placer dans le dossier `swing` et d'exécuter la commande `java ClientWindow`:
-```bash
-cd swing
-java ClientWindow
+make run
 ```
 Le client s'ouvre et automatiquement connecté au serveur.
 
@@ -46,10 +36,13 @@ Les groupes sont:
 - `Group1` contenant `Photo1` et `Photo2`
 - `Group2` contenant `Video1` et `Film1`
 
-Attention pour les lettres majuscules et minuscules!
+Attention pour les lettres majuscules et minuscules! Vous devez écrire les noms des objets et des groupes exactement comme ils sont écrits ci-dessus pour ensayer de les trouver.
 
 ## Serveur API
-
+Le serveur tourne sur le port 3331 et dispose de 3 commandes pour interagir avec la base de données:
+- `find group <group name>` pour chercher un groupe dans la base de données.
+- `find multimedia <multimedia name>` pour chercher un objet multimédia dans la base de données.
+- `play multimedia <multimedia name>` pour jouer un objet multimédia dans le serveur.
 
 ## Questions et réponses
 ### 4e Etape: Photos et vidéos

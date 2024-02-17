@@ -17,6 +17,13 @@ typedef std::shared_ptr<Video> VideoPtr;
 typedef std::shared_ptr<Multimedia> MultimediaPtr;
 typedef std::shared_ptr<Group> GroupPtr;
 
+/**
+ * @class Factory
+ * @brief A class that represents a factory for creating and managing multimedia objects and groups.
+ *
+ * The Factory class provides methods for creating photos, videos, films, and groups. It also allows
+ * searching, playing, and removing multimedia objects and groups.
+ */
 class Factory {
 private:
   std::map<std::string, MultimediaPtr> multimediaMap;
